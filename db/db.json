@@ -1,0 +1,72 @@
+{
+  "barberos": [
+    {
+      "id": 1,
+      "nombre": "Carlos López",
+      "especialidad": "Corte de cabello clásico",
+      "telefono": "555-1234"
+    },
+    {
+      "id": 2,
+      "nombre": "Ana Martínez",
+      "especialidad": "Barba y afeitado",
+      "telefono": "555-5678"
+    },
+    {
+      "id": 3,
+      "nombre": "Luis García",
+      "especialidad": "Corte moderno y estilizado",
+      "telefono": "555-9101"
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "José González",
+      "email": "jose.gonzalez@example.com",
+      "telefono": "555-1234"
+    },
+    {
+      "id": 2,
+      "nombre": "Marta Rodríguez",
+      "email": "marta.rodriguez@example.com",
+      "telefono": "555-5678"
+    },
+    {
+      "id": 3,
+      "nombre": "Luis Pérez",
+      "email": "luis.perez@example.com",
+      "telefono": "555-9101"
+    }
+  ],
+  "citas": [
+    {
+      "id": 1,
+      "clienteId": 1,
+      "barberoId": 1,
+      "fecha": "2024-12-30T10:00:00",
+      "servicio": "Corte de cabello clásico"
+    },
+    {
+      "id": 2,
+      "clienteId": 2,
+      "barberoId": 2,
+      "fecha": "2024-12-30T11:30:00",
+      "servicio": "Afeitado con navaja"
+    },
+    {
+      "id": 3,
+      "clienteId": 3,
+      "barberoId": 3,
+      "fecha": "2024-12-31T09:00:00",
+      "servicio": "Corte moderno"
+    },
+    {
+      "id": 4,
+      "clienteId": 1,
+      "barberoId": 2,
+      "servicio": "delineado",
+      "fecha": "2024-12-22T02:05"
+    }
+  ]
+}

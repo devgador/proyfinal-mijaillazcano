@@ -1,0 +1,15 @@
+#PRACTICA 2  - Proyecto Barberia
+
+##INTEGRANTES
+    Mijail Lazcano Ballesteros - 5767656
+
+##INSTALACION 
+    - npm install
+    - npm install -g json-server@0.17.1 
+    - json-server --watch db/db.json --port 3001         
+    - npm run serve    
+
+ ##CONSIDERACIONES   
+    - Todos los módulos tienen busqueda
+    - El módulo de CITAS tiene busqueda por filtro según la fecha.                            
+    - Puerto json-server = 3001
